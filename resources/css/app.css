@@ -98,6 +98,7 @@ label {
 .Login-Input-Password:focus {
     border-color: #7a6651;
     box-shadow: 0 0 0 2px rgba(122, 102, 81, 0.15);
+    transform: scale(1.02);
 }
 
 .errorHandlerText {
@@ -131,12 +132,11 @@ label {
 }
 
 .btnRegister{
-     display: inline-block;
-    color:#D8AE7E;
-    text-decoration: underline;
-    font-size:14px;
-    transition:ease 0.5s;
+     color: #6f5f4b;
+    font-weight: 600;
+    text-decoration: none;
 }
+
 .btnRegister:hover{
-    transform: scale(1.15);
+ text-decoration: underline;
 }

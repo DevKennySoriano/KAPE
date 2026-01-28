@@ -4,3 +4,5 @@
             Ken
     </x-slot:title>
 </x-FormLoginLayout>
+
+<x-alert-success/>

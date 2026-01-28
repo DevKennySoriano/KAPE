@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #6f5f4b, #000000);  
+    background: linear-gradient(to bottom, #8b7a63, #000000); 
+    overflow: hidden;
+}
+.Form-Register-Header {
+    text-align: center;
+    margin: 20px;
+    color: #3e3e3e;
+}
+.Form-Register-Description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.Form-Register-Container{
+    background-color:#fafafa;
+    width:800px;
+    margin: 50px auto;
+    padding:30px 20px;
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Form-Register-Input-Name,
+.Form-Register-Input-Email,
+.Form-Register-Input-Password,
+.Form-Register-Input-ConfirmPassword {
+    padding: 14px 16px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    border: 1px solid #b7a99a;
+    font-size: 14px;
+    outline: none;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.Form-Register-Input-Name:focus,
+.Form-Register-Input-Email:focus,
+.Form-Register-Input-Password:focus,
+.Form-Register-Input-ConfirmPassword:focus {
+    border-color: #7a6651;
+    box-shadow: 0 0 0 2px rgba(122, 102, 81, 0.15);
+    transform: scale(1.02);
+}
+.btnLogin{
+    color: #6f5f4b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnLogin:hover{
+    text-decoration: underline;
+}
+.btnRegisterSubmit {
+    padding: 14px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #b89b72, #9b7b52);
+    border: none;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+}
+
+.btnRegisterSubmit:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #a6875f, #84623f);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form-Register-Advertisement {
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.Form-Register-Advertisement img {
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: ease 1s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Form-Register-Advertisement img:hover {
+    filter: brightness(100%);
+}

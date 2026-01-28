@@ -1,1 +1,1 @@
-<h1> create - test</h1>
+<x-FormRegisterLayout/>
