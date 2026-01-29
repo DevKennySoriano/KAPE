@@ -6,4 +6,5 @@
 <x-index-slider/>
 <x-index-content/>
 <x-about-us/>
+<x-index-ratings/>
 <x-footer/>

@@ -6,7 +6,7 @@
     color:#fafafa;
 }
 nav {
-    position: sticky;
+    position: relative;
      z-index: 1000;
     top: 0;
     display: flex;

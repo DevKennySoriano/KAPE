@@ -27,7 +27,6 @@ use App\Http\Controllers\Dashboard\UserController;
     });
 
 
-
 Route::get('/dashboard', function () {
     if (!session()->has('user')) {
         return redirect('/login');
@@ -36,7 +35,6 @@ Route::get('/dashboard', function () {
 });
 
 Route::get('/logout', [AuthController::class, 'logout']);
-
 Route::get('/users', [UserController::class, 'index']);
 Route::get('/users/{id}/edit', [UserController::class, 'edit']);
 Route::post('/users/{id}/update', [UserController::class, 'update']);
