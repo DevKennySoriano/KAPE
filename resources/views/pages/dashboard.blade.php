@@ -7,12 +7,17 @@
             <div class="info">
                 <h2>{{ session('user')->name }}</h2>
                 <p class="email">{{ session('user')->email }}</p>
+                  <p class ="email">Admin</p>
             </div>
         </div>
 
         <nav>
             <a href="{{ url('/dashboard') }}" class="active">Dashboard</a>
             <a href="{{ url('/users') }}">Manage Users</a>
+            <a>Orders</a>
+            <a>Products</a>
+            <a>Transactions</a>
+            <a>Analytics</a>
             <a href="{{ url('/settings') }}">Settings</a>
         </nav>
     </div>
