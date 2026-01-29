@@ -1,0 +1,20 @@
+.back-home {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6f5f4b;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.25s ease;
+}
+
+.back-home:hover {
+    color: #3f2e1f;
+    background: #ffffff;
+    transform: translateX(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

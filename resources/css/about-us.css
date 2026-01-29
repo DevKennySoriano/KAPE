@@ -1,0 +1,14 @@
+section {
+  background-color: #EFE9E3;
+  color: #000;
+}
+
+section h2,
+section p,
+section span {
+  color: #262626;
+}
+
+section .text-muted {
+  color: #262626 !important;
+}

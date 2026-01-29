@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:#fafafa;
+}
+nav {
+    position: sticky;
+     z-index: 1000;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    background-image: url('https://images.pexels.com/photos/1933379/pexels-photo-1933379.jpeg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 6px 20px rgba(0, 1, 0, 0.35);
+    overflow: hidden;
+   
+}
+nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+nav > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.nav-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.nav-brand-logo img {
+    width: 90px;
+    height: auto;
+}
+
+.nav-brand-name p {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', 'Garamond', serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-size:1.2rem;
+      position: relative;
+    transition: color 0.3s ease;
+}
+.nav-links li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #c7a17a;
+    transition: width 0.3s ease;
+}
+
+.nav-links li:hover {
+    color: #c7a17a;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+}
+
+.auth-buttons {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    display: flex;
+    gap: 12px;
+}
+
+.auth-buttons a {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid #fafafa;
+    background: transparent;
+    color: #fafafa;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.auth-buttons .signup {
+    background: #fafafa;
+    color: #111;
+}
+

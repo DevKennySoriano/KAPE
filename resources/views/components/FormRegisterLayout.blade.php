@@ -1,12 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create an Account</title>
-     @vite(['resources/css/RegisterForm.css', 'resources/js/app.js'])
-</head>
-    <body>
-
+@vite(['resources/css/RegisterForm.css', 'resources/js/app.js'])
       
      <div class = "Form-Register-Container">
           <div class = "Form-Register-Advertisement">
@@ -14,23 +6,82 @@
         </div>
         
         <h1 class = "Form-Register-Header">Create an Account</h1>
-        <p class = "Form-Register-Description">Already have an account? <a href="/" class ="btnLogin">Login</a></p>
+        <p class = "Form-Register-Description">Already have an account? <a href="/login" class ="btnLogin">Login</a></p>
+
+                    @if ($errors->any())
+            <div class="toast-error">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
 
       <form action="{{ route('register.store') }}" method="POST" class="Form-Register-Form">
-    @csrf
+             @csrf
             <label for = "name">Full Name</label>
-            <input type="text" name = "name" placeholder ="Enter your full name" class ="Form-Register-Input-Name"  required>
+            <input type="text" name = "name" placeholder ="Enter your full name" class ="Form-Register-Input-Name" value="{{ old('name') }}" required>
 
             <label for = "email">Email Address</label>
-            <input type="email" name = "email" placeholder ="Enter your email address" class ="Form-Register-Input-Email" required>
+            <input type="email" name = "email" placeholder ="Enter your email address" class ="Form-Register-Input-Email"  value="{{ old('email') }}" required>
 
             <label for = "password">Password</label>
-            <input type="password" name = "password" placeholder ="Enter your password" class ="Form-Register-Input-Password" required>
+            <input type="password" 
+            name = "password" 
+            placeholder ="Enter your password" 
+            class ="Form-Register-Input-Password"
+            required>
 
-            <label for = "password_confirmation">Confirm Password</label>
-            <input type="password" name = "password_confirmation" placeholder ="Confirm your password" class ="Form-Register-Input-ConfirmPassword" required>
-            <button class = "btnRegisterSubmit" type ="submit"> Register </button>
+            <label for = "password_confirmation" >Confirm Password</label>
+            <input type="password" name= "password_confirmation" placeholder ="Confirm your password" class ="Form-Register-Input-ConfirmPassword" required>
+            <button class = "btnRegisterSubmit" type ="submit" id ="submitBtn"> Register </button>
+            
         </form>
      </div>
-    </body>
-</html>
+     
+     <style>
+    .toast-error {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    background-color: #dc3545; /* red */
+    color: #fff;
+
+    padding: 15px 20px;
+    border-radius: 8px;
+    min-width: 280px;
+    max-width: 360px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    animation: slideIn 0.4s ease-out;
+}
+
+.toast-error ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.toast-error li {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opac qity: 1;
+    }
+}
+
+
+     </style>

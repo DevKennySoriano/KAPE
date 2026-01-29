@@ -10,7 +10,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #6f5f4b, #8b7a63);
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #6f5f4b, #000000);  
+    background: linear-gradient(to bottom, #8b7a63, #000000); 
+    overflow: hidden;
 }
 
 .Login-Form {
@@ -60,6 +63,7 @@ body {
 .Form-Container-Logo img {
     width: 110px;
 }
+
 
 
 .Login-Header {
@@ -122,6 +126,7 @@ label {
     color: #fff;
     letter-spacing: 0.5px;
     transition: all 0.25s ease;
+    width: 100%;
 }
 
 .btnSubmit:hover {
@@ -139,4 +144,25 @@ label {
 
 .btnRegister:hover{
  text-decoration: underline;
+}
+
+.Login-Form-Inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #4b3a2a;
+}
+
+
+.Login-Input-Email,
+.Login-Input-Password {
+    width: 100%;
+    display: block;
 }
