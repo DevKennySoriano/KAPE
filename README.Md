@@ -9,6 +9,7 @@
 
 ## Table of Contents
 1. [About the Project](#about-the-project)
+2. [Goal of the Project](#goal)
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
 4. [Usage](#usage)
@@ -19,42 +20,45 @@
 
 ## About The Project
 
+
 **Kape’t Bahala Na** works as a brand name because it's deeply FIlipino,emotional and memorable. It implies that your coffee is there for people during busy days,tough decisions,late nights or moments when you just let things be. 
 
 "**kape muna bahala na yung iba**"
 
-The application focuses on a **User Management System** that supports **CRUD operations (Create, Read, Update, Delete)**.
+The application focuses on a **User Management System** that supports **CRUD operations (Create, Read, Update, Delete)**.\
 
+> ⏱ **Development Timeline:** 2 – 4 days  
+> Built as a focused Laravel Week 1 project to practice core framework concepts and CRUD operations.
 
 This project introduces core Laravel concepts such as:
 - Laravel project structure
 - MVC (Model–View–Controller) architecture
 - Routing and Controllers
-- Database migrations
-- 
+- Database via database.sqlite
 
-The goal of this project is to build confidence in Laravel basics while following clean and organized development practices.
+---
 
-> ☕ “Kape muna, tapos bahala na” 
+## Goal
+The goal of this project is to create a sample application with Login/Logout/Registration functionality with basic CRUD operation.
 
+---
 
 ## Getting Started
 
 Follow the steps below to set up the project locally.
 
----
 
-### Prerequisites
+#### Prerequisites
 
 Make sure the following tools are installed on your system:
 
+-  **Visual Studio Code**
 - **Laravel** – PHP Framework
 - **PHP 8+**
 - **Node.js**
 - **Bootstrap**
 - **Composer**
 - **Git**
----
 
 Check installed versions:
 
@@ -63,7 +67,9 @@ Check installed versions:
 - ```node -v```
 - ```npm -v```
 
-### Usage
+---
+
+#### Usage
 
 1. Download or clone the repository (or contact the author for access).
 2. Run the frontend development server:
@@ -71,6 +77,8 @@ Check installed versions:
 3.  Start the Laravel development server:
   ```php artisan serve ```
 <br>
+
+---
 
 ### Contact
 
