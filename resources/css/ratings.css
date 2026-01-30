@@ -1,0 +1,214 @@
+:root {
+  --brown-dark: #3b241f;
+  --brown-medium: #6f4e37;
+  --brown-light: #EFE9E3;
+  --cream: #fff7ef;
+  --gold: #c89b3c;
+}
+
+.coffee-rating * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--brown-dark);
+}
+
+.coffee-rating {
+    padding:120px;
+    margin: auto;
+    background: -webkit-linear-gradient(to bottom, #6f5f4b, #000000);  
+    background: linear-gradient(to bottom, #8b7a63, #000000); 
+    overflow: hidden;
+}
+
+.coffee-rating h2 {
+  margin-bottom: 20px;
+}
+
+.coffee-card {
+  background: linear-gradient(180deg, #fffaf5, var(--cream));
+  border-radius: 18px;
+  padding: 34px;
+  box-shadow: 0 20px 40px rgba(59, 36, 31, 0.12);
+}
+
+.coffee-row {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.coffee-left {
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+}
+
+.coffee-right {
+  flex: 2;
+  min-width: 300px;
+}
+
+
+.coffee-score {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.coffee-stars {
+  font-size: 26px;
+  color: var(--gold);
+  text-shadow: 0 2px 6px rgba(200, 155, 60, 0.4);
+}
+
+.coffee-muted {
+  font-size: 14px;
+  color: var(--brown-medium);
+}
+
+
+.coffee-rating-bar {
+  margin-bottom: 14px;
+}
+
+.coffee-bar-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.coffee-progress {
+  background: #f2d38c;
+  height: 14px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.coffee-progress span {
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    #a8732a,
+    var(--gold),
+    #e6c067
+  );
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.4);
+}
+
+
+.coffee-review {
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #fffdf9;
+  border: 1px solid var(--brown-light);
+  box-shadow: 0 10px 25px rgba(59, 36, 31, 0.08);
+}
+
+
+.coffee-review h3 {
+  margin-bottom: 14px;
+}
+
+
+.coffee-star-rating {
+  display: flex;
+  gap: 6px;
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.coffee-star-rating input {
+  display: none;
+}
+
+.coffee-star-rating label {
+  cursor: pointer;
+  color: #ccb9a5;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.coffee-star-rating label:hover,
+.coffee-star-rating label:hover ~ label {
+  color: var(--gold);
+  transform: scale(1.2);
+}
+
+
+
+.coffee-total-reviews {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(200, 155, 60, 0.15);
+  color: var(--brown-dark);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+
+
+.coffee-review textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid var(--brown-light);
+  resize: vertical;
+  background: #fffdfb;
+  font-size: 14px;
+}
+
+.coffee-review button {
+  margin-top: 16px;
+  padding: 12px 22px;
+  background: var(--brown-medium);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.coffee-review button:hover {
+  background: var(--brown-dark);
+}
+
+
+
+.coffee-static-reviews {
+  margin-top: 30px;
+}
+
+.coffee-review-item {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  margin-top: 14px;
+  box-shadow: 0 8px 20px rgba(59, 36, 31, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.coffee-review-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(59, 36, 31, 0.15);
+}
+
+.coffee-review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.coffee-review-stars {
+  color: #f5a623;
+}
+
+.coffee-review-text {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #555;
+}
