@@ -67,9 +67,9 @@ Check installed versions:
 
 1. Download or clone the repository (or contact the author for access).
 2. Run the frontend development server:
-   ```sh npm run dev ```
+   ``` npm run dev ```
 3.  Start the Laravel development server:
-  ```sh php artisan serve ```
+  ```php artisan serve ```
 <br>
 
 ### Contact
