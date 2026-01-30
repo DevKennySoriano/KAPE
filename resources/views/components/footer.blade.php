@@ -4,7 +4,7 @@
 
 <footer class="bg-body-tertiary text-center text-lg-start">
   <div class="text-center p-3" style="background-color: #000; color : #fafafa">
-    © 2026 Ken pogi totoo, real, not lying 123: <span style="color: #c89b3c; text-decoration:underline; cursor:pointer;" >@kape@wizzardtech</span>
+    © 2026 Since 1821 - Ken pogi totoo, real, not lying 123: <span style="color: #c89b3c; text-decoration:underline; cursor:pointer;" >@kape@wizzardtech</span>
   </div>
 </footer>
 

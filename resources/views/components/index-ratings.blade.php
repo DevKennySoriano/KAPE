@@ -53,6 +53,7 @@
       <strong>Ken S.</strong>
       <span class="coffee-review-stars">★★★★★</span>
     </div>
+     <span class = "reviewdate" style="color: #888; font-size: 12px;"> July 15, 2000 </span>
     <p class="coffee-review-text">
     MASARAP SIYA PAREEEH!!! I LOVE MATCHA LATTE.
     </p>
@@ -63,6 +64,7 @@
       <strong>Mark A.</strong>
       <span class="coffee-review-stars">★★★☆</span>
     </div>
+    <span class = "reviewdate" style="color: #888; font-size: 12px;"> Feb 15, 1981 </span>
     <p class="coffee-review-text">
       BABALIK BALIKAN KO DITO PRE. SAKTO LANG ANG TAMIS AT HINDI MATAPANG.
     </p>
@@ -71,8 +73,10 @@
   <div class="coffee-review-item">
     <div class="coffee-review-header">
       <strong>Zachary A.</strong>
+      
       <span class="coffee-review-stars">★★★★★</span>
     </div>
+    <span class = "reviewdate" style="color: #888; font-size: 12px;"> Dec 15, 1821 </span>
     <p class="coffee-review-text">
       BAHALA NA TALAGA ANG TAONG NASA LIKOD NG KAPE NA TO. SUPER SARAP!
     </p>
