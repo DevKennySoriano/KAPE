@@ -1,8 +1,8 @@
 <div align="center">
-  <h3 align="center">Kape’t Bahala Na ☕</h3>
-  <p align="center">
-    Laravel Week 1 Project – User Management with CRUD
-  </p>
+    <h3 align="center">Kape't Bahala Na ☕</h3>
+    <p align="center">
+        Laravel Week 1 Project – User Management with CRUD
+    </p>
 </div>
 
 ---
@@ -11,9 +11,10 @@
 1. [About the Project](#about-the-project)
 2. [Goal of the Project](#goal)
 3. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
+     - [Prerequisites](#prerequisites)
 4. [Usage](#usage)
-5. [Contact](#contact)
+5. [Assets](#assets)
+6. [Contact](#contact)
 
 
 ---
@@ -21,11 +22,11 @@
 ## About The Project
 
 
-**Kape’t Bahala Na** works as a brand name because it's deeply FIlipino,emotional and memorable. It implies that your coffee is there for people during busy days,tough decisions,late nights or moments when you just let things be. 
+**Kape't Bahala Na** works as a brand name because it's deeply Filipino, emotional and memorable. It implies that your coffee is there for people during busy days, tough decisions, late nights or moments when you just let things be. 
 
 "**kape muna bahala na yung iba**"
 
-The application focuses on a **User Management System** that supports **CRUD operations (Create, Read, Update, Delete)**.\
+The application focuses on a **User Management System** that supports **CRUD operations (Create, Read, Update, Delete)**.
 
 > ⏱ **Development Timeline:** 2 – 4 days  
 > Built as a focused Laravel Week 1 project to practice core framework concepts and CRUD operations.
@@ -52,7 +53,7 @@ Follow the steps below to set up the project locally.
 
 Make sure the following tools are installed on your system:
 
--  **Visual Studio Code**
+- **Visual Studio Code**
 - **Laravel** – PHP Framework
 - **PHP 8+**
 - **Node.js**
@@ -62,10 +63,10 @@ Make sure the following tools are installed on your system:
 
 Check installed versions:
 
-- ```php -v```
-- ``` composer -v ```
-- ```node -v```
-- ```npm -v```
+- `php -v`
+- `composer -v`
+- `node -v`
+- `npm -v`
 
 ---
 
@@ -73,10 +74,23 @@ Check installed versions:
 
 1. Download or clone the repository (or contact the author for access).
 2. Run the frontend development server:
-   ``` npm run dev ```
-3.  Start the Laravel development server:
-  ```php artisan serve ```
-<br>
+     ```
+     npm run dev
+     ```
+3. Start the Laravel development server:
+     ```
+     php artisan serve
+     ```
+
+---
+
+#### Assets
+
+This project uses the following assets and resources:
+
+- **Images:** [Pexels](https://www.pexels.com/) – Free stock photography
+- **UI Framework:** [Bootstrap](https://getbootstrap.com/) – Responsive design components
+- **Laravel Framework:** [Laravel](https://laravel.com/) – PHP web framework
 
 ---
 
@@ -86,4 +100,5 @@ For more information, guidance, or questions about this project, feel free to re
 
 📧 **Email:** devkennysoriano@gmail.com  
 
-I’m happy to help and open to feedback or collaboration.
+I'm happy to help and open to feedback or collaboration.
+

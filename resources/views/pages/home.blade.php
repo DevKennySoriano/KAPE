@@ -3,6 +3,7 @@
     
 
 <x-navbar/>
+
 <x-index-slider/>
 <x-index-content/>
 <x-about-us/>
