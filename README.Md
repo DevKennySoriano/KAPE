@@ -1,4 +1,8 @@
 <div align="center">
+    <img src="https://images.pexels.com/photos/5194985/pexels-photo-5194985.jpeg" alt="Banner Image" style="width:100%; max-width:600px; height:250px; ">
+</div>
+
+<div align="center">
     <h3 align="center">Kape't Bahala Na ☕</h3>
     <p align="center">
         Laravel Week 1 Project – User Management with CRUD
@@ -101,4 +105,3 @@ For more information, guidance, or questions about this project, feel free to re
 📧 **Email:** devkennysoriano@gmail.com  
 
 I'm happy to help and open to feedback or collaboration.
-
