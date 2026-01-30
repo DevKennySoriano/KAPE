@@ -19,7 +19,7 @@
 
 ## About The Project
 
-**Kape’t Bahala Na** wors as a brand name because it's deeply FIlipino,emotional and memorable.  It implies that your coffee is there for people during busy days,tough decisions,late nights or moments when you just let things be. 
+**Kape’t Bahala Na** works as a brand name because it's deeply FIlipino,emotional and memorable. It implies that your coffee is there for people during busy days,tough decisions,late nights or moments when you just let things be. 
 
 "**kape muna bahala na yung iba**"
 
