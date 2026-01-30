@@ -12,13 +12,14 @@
         </div>
 
         <nav>
-            <a href="{{ url('/dashboard') }}" class="active">Dashboard</a>
-            <a href="{{ url('/users') }}">Manage Users</a>
-            <a>Orders</a>
-            <a>Products</a>
-            <a>Transactions</a>
-            <a>Analytics</a>
-            <a href="{{ url('/settings') }}">Settings</a>
+            <a href="{{ url('/dashboard') }}" class="active">📊 Dashboard</a>
+            <a href="{{ url('/') }}">🏠 Home</a>
+            <a href="{{ url('/users') }}">👥 Manage Users</a>
+            <a>📦 Orders</a>
+            <a>🛍️ Products</a>
+            <a>💳 Transactions</a>
+            <a>📈 Analytics</a>
+            <a href="{{ url('/settings') }}">⚙️ Settings</a>
         </nav>
     </div>
 

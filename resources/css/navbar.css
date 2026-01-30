@@ -111,4 +111,29 @@ nav > * {
     background: #fafafa;
     color: #111;
 }
+.auth-buttons .logout {
+    background: #ff6b6b;
+    color: #111;
+    border:none;
+}
+.auth-buttons .logout:hover {
+    background: #e04848;
+    border:none;
+}
 
+
+
+.user-name{
+  margin:8px 15px 0 0;
+  font-weight:600;
+  font-size:0.95rem;
+  color:#f3e7d3;
+  border-bottom:1px solid rgba(243,231,211,0.35);
+  letter-spacing:0.03em;
+  transition:color .25s ease,border-color .25s ease;
+}
+
+.user-name:hover{
+  color:#d6b98c;
+  border-bottom-color:rgba(214,185,140,0.8);
+}

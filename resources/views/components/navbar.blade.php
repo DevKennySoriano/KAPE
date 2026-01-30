@@ -19,10 +19,20 @@
     <li class = "nav-brand-link-4">About us</li>
   </div>
 
-  <div class="auth-buttons">
-    <a class="signin" href="/login">Sign In</a>
-    <a class="signup" href="/register">Sign Up</a>
+ <div class="auth-buttons">
+    @if(session()->has('user'))
+        <span class="user-name">
+            Hi, {{ session('user')['name'] }}
+        </span>
+
+        <a href="/dashboard" class="dashboard">Dashboard</a>
+        <a href="/logout" class="logout">Logout</a>
+    @else
+        <a class="signin" href="/login">Sign In</a>
+        <a class="signup" href="/register">Sign Up</a>
+    @endif
 </div>
+
 
 </nav>
 
