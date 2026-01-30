@@ -1,4 +1,4 @@
-@vite(['resources/css/index-slider.css', 'resources/js/app.js'])
+<link rel="stylesheet" href="{{ asset('css/index-slider.css') }}">
 
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

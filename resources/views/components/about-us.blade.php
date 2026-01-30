@@ -1,4 +1,4 @@
-@vite(['resources/css/about-us.css', 'resources/js/app.js'])
+<link rel="stylesheet" href="{{ asset('css/about-us.css') }}">
 <section class="py-5">
 	<div class="container">
 		<div class="row align-items-center gx-4">

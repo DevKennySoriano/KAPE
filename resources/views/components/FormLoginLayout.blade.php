@@ -1,5 +1,4 @@
- @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <div class = "Login-Form">
     <div class = "Form-Container-Left">
         <img src="https://images.pexels.com/photos/4109744/pexels-photo-4109744.jpeg" alt="Form-Image-Banner">

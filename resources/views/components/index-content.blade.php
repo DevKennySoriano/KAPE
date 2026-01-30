@@ -1,4 +1,4 @@
-@vite(['resources/css/index-content.css', 'resources/js/app.js'])
+<link rel="stylesheet" href="{{ asset('css/index-content.css') }}">
 <body>
     
  

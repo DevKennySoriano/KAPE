@@ -1,4 +1,4 @@
-@vite(['resources/css/RegisterForm.css', 'resources/js/app.js'])
+<link rel="stylesheet" href="{{ asset('css/RegisterForm.css') }}">
       
      <div class = "Form-Register-Container">
           <div class = "Form-Register-Advertisement">

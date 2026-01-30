@@ -1,4 +1,4 @@
-@vite(['resources/css/ratings.css', 'resources/js/app.js'])
+<link rel="stylesheet" href="{{ asset('css/ratings.css') }}">
 <div class="coffee-rating">
 
   <div class="coffee-card">
