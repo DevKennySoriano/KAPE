@@ -13,10 +13,6 @@ RUN apt-get update && apt-get install -y \
 
 # PHP extensions
 RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd zip
-
-# Install node.js
-# RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \ && apt-get install -y nodejs
-
 # Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 

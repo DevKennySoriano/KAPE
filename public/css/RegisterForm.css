@@ -13,7 +13,7 @@ body {
     background: #000000;  
     background: -webkit-linear-gradient(to bottom, #6f5f4b, #000000);  
     background: linear-gradient(to bottom, #8b7a63, #000000); 
-    overflow: hidden;
+    overflow: auto;
 }
 .Form-Register-Header {
     text-align: center;
