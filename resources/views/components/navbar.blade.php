@@ -12,12 +12,19 @@
 </div>
 
 
-  <div class="nav-links">
-    <li class = "nav-brand-link-1">Our Products</li>
-    <li class = "nav-brand-link-2">Deals</li>
-    <li class = "nav-brand-link-3">Help</li>
-    <li class = "nav-brand-link-4">About us</li>
-  </div>
+<div class="nav-links">
+    <li class="nav-brand-link-1 {{ request()->routeIs('pages.home') ? 'active' : '' }}">
+        <a href="{{ route('pages.home') }}">Home</a>
+    </li>
+    
+    <li class="nav-brand-link-2 {{ request()->routeIs('pages.menu') ? 'active' : '' }}">
+        <a href="{{ route('pages.menu') }}">Menu</a>
+    </li>
+
+    <li class="nav-brand-link-3 {{ request()->routeIs('pages.story') ? 'active' : '' }}">
+        <a href="{{ route('pages.story') }}">Our Story</a>
+    </li>
+</div>
 
  <div class="auth-buttons">
     @if(session()->has('user'))

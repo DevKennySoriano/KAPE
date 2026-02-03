@@ -13,6 +13,11 @@ use App\Http\Controllers\Dashboard\UserController;
     Route::get('/register', function () {
         return view('pages.register');
     });
+
+    Route::get('/', fn () => view('pages.home'))->name('pages.home');
+    Route::get('/menu', fn () => view('pages.menu'))->name('pages.menu');
+    Route::get('/our-story', fn () => view('pages.story'))->name('pages.story');
+
     Route::get('/login', function () {
         return view('pages.login');
     });
